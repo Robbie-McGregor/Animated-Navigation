@@ -1,3 +1,6 @@
-const closeBtn = document.getElementById('closeBtn')
+const toggle = document.getElementById('toggle')
+const nav = document.getElementById('nav')
 
-closeBtn.addEventListener('click', () => alert("Click"))
+toggle.addEventListener('click', () => {
+    nav.classList.toggle('active')
+})
